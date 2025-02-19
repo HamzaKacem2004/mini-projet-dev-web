@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Word</title>
+    <link rel="stylesheet" href="ex2.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Mini Word</h2>
+        <input type="color" id="colorPicker">
+        <input type="number" id="fontSizePicker" min="10" max="50" value="16">
+        <select id="fontSelector">
+            <option value="Arial">Arial</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+        </select>
+        <p id="paragraph" contenteditable="true">Exemple de texte modifiable</p>
+    </div>
+    <script src="ex2.js"></script>
+</body>
+</html>
