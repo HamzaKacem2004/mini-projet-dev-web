@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+ol {
+    cursor: pointer;
+}
+li {
+    padding: 10px;
+    margin: 5px 0;
+    list-style: decimal inside;
+}
